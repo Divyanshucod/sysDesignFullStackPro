@@ -1,0 +1,10 @@
+{
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.7.5"
+  },
+  "devDependencies": {
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div id="vending-machine">
+        <!-- Part 1: Product Showcase -->
+        <div id="product-showcase">
+            
+          
+            <!-- Add more shelves and products as needed -->
+        </div>
+
+        <!-- Part 2: Features and Controls -->
+        <div id="controls">
+            <div id="money-insert">
+                <label for="money-input">Insert Money:</label>
+                <input type="number" id="money-input" min="0" step="1">
+                <button id="submit-money">Submit</button>
+                <button id="cancel">Cancel</button>
+            </div>
+
+            <div id="numpad">
+                <div id="numpad-display"></div>
+                <div class="numpad-row">
+                    <button class="numpad-button1 numpad-button">1</button>
+                    <button class="numpad-button2 numpad-button">2</button>
+                    <button class="numpad-button3 numpad-button">3</button>
+                </div>
+                <div class="numpad-row">
+                    <button class="numpad-button4 numpad-button">4</button>
+                    <button class="numpad-button5 numpad-button">5</button>
+                    <button class="numpad-button6 numpad-button">6</button>
+                </div>
+                <div class="numpad-row">
+                    <button class="numpad-button7 numpad-button">7</button>
+                    <button class="numpad-button8 numpad-button">8</button>
+                    <button class="numpad-button9 numpad-button">9</button>
+                </div>
+                <div class="numpad-row">
+                    <button class="numpad-button0 numpad-button">0</button>
+                    <button id="submit">Select</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Part 3: Selected Product Display -->
+        <div id="selected-product">
+            <h2>Selected Product:</h2>
+            <div id="product-display">None</div>
+        </div>
+
+        <!-- Part 4: Remaining Change Display -->
+        <div id="change-display">
+            <h2>Remaining Change:</h2>
+            <div id="change-amount">$0.00</div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
+=
